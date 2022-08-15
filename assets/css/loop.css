@@ -1,0 +1,66 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.animated-pman svg{
+    width: 100%;
+}
+div.animated-pman{
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#shelling,#euro,#pounds,#dolls{
+animation: shell 1s linear infinite;
+}
+#right,#left,#body,#hand{
+animation: hand 1s linear infinite;
+}
+#right,
+#left,
+#body{
+    animation: right 1s linear infinite;
+}
+@keyframes hand{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes right {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+    100%{
+        transform: none;
+    }
+}
+@keyframes shell {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: none;
+    }
+}
+@media (max-width:760px) {
+.animated-pman svg{
+    width: 70%;
+}
+}
+

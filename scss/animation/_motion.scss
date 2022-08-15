@@ -1,0 +1,47 @@
+@use"../custom" as*;
+
+.plane-vg{
+    position: relative;
+    margin: 0;
+    animation: fade 3s ease-out forwards;
+}
+.plane-vg img{   
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: lighter;
+    width: 50px;
+    margin: 0;
+    z-index: 9;
+    animation: pulse 2s 3s ease-out infinite;
+}
+  @keyframes fade{
+       0% {
+           opacity: 0;
+           transform: translateY(2rem);
+       }
+
+       100% {
+           opacity: 1;
+           transform: none;
+     }
+   }
+  @keyframes pulse {
+      0% {
+          opacity: 1;
+          transform: none;
+      }
+
+      50% {
+        transform: scale(.7);
+      }
+
+    100% {
+        transform: none;
+        }
+
+      100% {
+          opacity: 1;
+          transform: none;
+      }
+  }

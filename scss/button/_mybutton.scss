@@ -1,0 +1,72 @@
+@use"../custom"as*;
+.pills-group{
+    margin-top: 1.5rem;
+    display: none;
+}
+.pil-group{
+    display: none;
+    margin: 5px 0 20px 0;
+}
+.pills-group .reset{
+    border: 1px solid red;
+}
+.active-one{
+    display:  block;
+}
+.active-two{
+    display: none;
+}
+.active-three{
+    display: block;
+}
+.active-four{
+    display: none;
+}
+.small-s{
+    font-size: .68em;
+    font-weight: bolder;
+}
+.wrong-fw{
+    font-weight: 100;
+}
+.get-in{
+    padding: 5px;
+    padding: .5rem 1.3rem;
+    margin: 5px 0 0px 0;
+    text-decoration: none;
+    font-size: .9em;
+}
+.re-create {
+    border: none;
+    border-right-color: #fff;
+    position: absolute;
+    left: 155px;
+    z-index: 1;
+    bottom: 10px;
+    height: 15px;
+    display: block;
+    font-size: 1em;
+    color: $primary;
+    display: flex;
+}
+.f-me{
+    margin-top: 1rem;
+}
+@media (max-width:700px) {
+    .text-Small,
+    .text-success,.get-in{
+        font-size: .8em;
+    }
+    .text-Small-reset{
+        font-size: 1.1em;
+    }
+    .re-create{
+        border: none;
+        font-size: .8em;
+     }
+}
+@media (max-width:400px) {
+    .one{
+    width: 150px;
+       }
+}

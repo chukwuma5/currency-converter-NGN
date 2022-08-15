@@ -1,0 +1,91 @@
+//theme-colors
+$purple: #6f42c1;
+$pink: #d63384;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: rgba(169, 207, 189, 0.485);
+$red: red;
+$orange: orange;
+$velvet: #9cffd1 !default;
+
+//white and grey color
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary:  $green;
+$secondary: $pink;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $cyan;
+$light: $gray-100;
+$dark: $gray-900;
+$pass: $orange;
+$velvet: $velvet;
+
+//border-raduis
+$border-radius: .25rem;
+
+//$component-active-color: $white  !default;
+$component-active-bg: $primary;
+$component-active-color: $white;
+
+//border width sizes
+$border-width: 1px;
+$border-widths: (
+    1: 1px,
+    2: 1.5px,
+    3: 3px,
+    4: 4px,
+    5: 5px) !default;
+
+$border-color: $gray-300;
+//
+$input-btn-focus-width: 0.07rem;
+$input-btn-focus-color-opacity: 0.125rem;
+$input-focus-box-shadow:null;
+$input-btn-focus-color-opacity: .1;
+$input-btn-focus-color: rgba($component-active-bg, $input-btn-focus-color-opacity);
+$input-btn-focus-blur: 0;
+$input-btn-focus-box-shadow: 0 0 $input-btn-focus-blur $input-btn-focus-width $input-btn-focus-color  null;
+$btn-box-shadow: inset 0 1px 0 rgba($white, .10), 0 1px 1px rgba($black, .045);
+$btn-focus-width: $input-btn-focus-width ;
+$btn-focus-box-shadow: $input-btn-focus-box-shadow ;
+$btn-disabled-opacity: .65;
+$btn-active-box-shadow: inset 0 3px 0px rgba($black, .105);
+
+// //@at-root
+$link-color: $primary;
+$link-hover-color: $success;
+
+// //link-color
+$btn-link-color: $link-color;
+$btn-link-hover-color: $link-hover-color;
+$btn-link-disabled-color: $gray-600;
+
+//nav pills and links
+$nav-link-padding-y: .5rem;
+$nav-link-padding-x: 1rem;
+$nav-link-font-size: 1rem;
+$nav-link-font-weight: 1rem;
+$nav-link-color: $link-color;
+$nav-link-hover-color: $link-hover-color;
+$nav-link-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+$nav-link-disabled-color: $gray-600;
+
+$nav-pills-border-radius: $border-radius;
+$nav-pills-link-active-color: $component-active-color;
+$nav-pills-link-active-bg: $component-active-bg;
+
+//import bootstarp 5
+@import"../node_modules/bootstrap/scss/bootstrap.scss";

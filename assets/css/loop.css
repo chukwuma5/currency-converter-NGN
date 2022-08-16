@@ -8,11 +8,14 @@
 }
 div.animated-pman{
     background: black;
+    height: 100vh;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-y: hidden;
 } 
 #shelling,#euro,#pounds,#dolls{
 animation: shell 1s linear infinite;

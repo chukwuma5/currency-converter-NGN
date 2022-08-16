@@ -27,6 +27,9 @@ color: $primary;
 input[type=text]:hover {
     border: 1px solid rgba(26, 135, 84, 0.25);
 }
+big{
+   margin: 0 2px 0 0; 
+}
 @media (max-width:700px) {
     input[type=text],
     input[type=text]:focus,

@@ -7,12 +7,12 @@
 }
 .plane-vg img{   
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
     font-weight: lighter;
     width: 50px;
     margin: 0;
-    z-index: 9;
+    z-index: 99;
     animation: pulse 2s 3s ease-out infinite;
 }
   @keyframes fade{

@@ -11124,12 +11124,12 @@ textarea.form-control-lg {
 
 .plane-vg img {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
   font-weight: lighter;
   width: 50px;
   margin: 0;
-  z-index: 9;
+  z-index: 99;
   animation: pulse 2s 3s ease-out infinite;
 }
 
@@ -11167,6 +11167,7 @@ textarea.form-control-lg {
 .pil-group {
   display: none;
   margin: 5px 0 20px 0;
+  text-align: right;
 }
 
 .pills-group .reset {
@@ -11204,6 +11205,7 @@ textarea.form-control-lg {
   margin: 5px 0 0px 0;
   text-decoration: none;
   font-size: 0.9em;
+  text-align: right;
 }
 
 .re-create {
@@ -11277,6 +11279,10 @@ input[type=text]::placeholder {
 
 input[type=text]:hover {
   border: 1px solid rgba(26, 135, 84, 0.25);
+}
+
+big {
+  margin: 0 2px 0 0;
 }
 
 @media (max-width: 700px) {

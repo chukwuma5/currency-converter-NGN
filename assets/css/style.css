@@ -11308,4 +11308,9 @@ input[type=text]:active {
   height: auto;
 }
 
+footer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

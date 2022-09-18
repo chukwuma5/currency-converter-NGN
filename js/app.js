@@ -2,7 +2,7 @@
  let naira, nairaOne, nairaTwo, nairaThree, nairaFour, nairaFivth, nairaSixth, nairaSeventh, nairaEight, nairaNinth, nairaTenth, nairaEleventh, nairaTwelvth, nairaThirteen, nairaFourteen, nairaFiveteen, nairaSixteen, nairaSeventeen, nairaEighteen, nairaNineteen, nairaTwenty, nairaTwentyOne;
 let firstExchangeRate, secondExchangeRate, thirdExchangeRate, fourthExchangeRate, fivthExchangeRate, sixthExchangeRate, seventhExchangeRate, eightExchangeRate, ninthExchangeRate, tenthExchangeRate,
  eleventhExchangeRate, twelvthExchangeRate, thirteenExchangeRate, fourteenExchangeRate, fiveteenExchangeRate, sixteenExchangeRate, seventeenExchangeRate, eighteenExchangeRate, ninteenExchangeRate, twentyExchangeRate,twentyOneExchangeRate, twentyTwoExchangeRate;
-const canadaDollar = 329.17, euros = 423.02, rands = 25.99, cedis = 45.32, newZeaLand = 260.16, bitcoin = 9238764.08, chineseYen = 62.18, britishPound = 502.27, mexico = 21.01, japaneseYen = 3.14, tanzaniaDollar = 0.18, centralAfrica = 0.66, swissFranc = 450.10, dogeCoin = 29.85, etheruim = 720154.38, litCoin = 25940.62,silver = 8523.94, gold = 740982, palladuim = 920643, qatar = 115.05, UnitedStates = 430.867, liberianDollar = 2.73;  
+const canadaDollar = 329.17, euros = 450.02, rands = 25.99, cedis = 45.32, newZeaLand = 260.16, bitcoin = 8638764.08, chineseYen = 62.18, britishPound = 502.27, mexico = 21.01, japaneseYen = 3.14, tanzaniaDollar = 0.18, centralAfrica = 0.66, swissFranc = 450.10, dogeCoin = 29.85, etheruim = 720154.38, litCoin = 25940.62,silver = 8523.94, gold = 730982, palladuim = 925643, qatar = 117.05, UnitedStates = 430.867, liberianDollar = 2.73;  
  //firstinput
   document.getElementById("button_addOne").onclick = function() {
      naira = document.getElementById("nairaValue").value;
